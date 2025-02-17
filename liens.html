@@ -1,6 +1,4 @@
-<?php
-	require "corp.html";
-?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,5 +16,12 @@
 
   </head>
   <body>
-	<a href="http://www.aquarellealacarte.ch">aquarelle à la carte</a>
+    <div id="navbar-container"></div>  
+    <script>
+			fetch('corp.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('navbar-container').innerHTML = data)
+				.catch(error => console.error('Error loading content:', error));
+		</script>
+	  <a href="http://www.aquarellealacarte.ch">aquarelle à la carte</a>
  </body>
