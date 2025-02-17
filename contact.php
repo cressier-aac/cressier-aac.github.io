@@ -1,0 +1,43 @@
+<?php
+   require "corp.html";
+?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>contact</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+  <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>
+				Contact
+			</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			 
+			<address>
+				 <strong>Secrétariat de l'AAC</strong><br />Route de Neuchâtel 20<br /> 2088 Cressier <br /> e-mail : marianne.creations@net2000.ch<br /> téléphone : 032 757 29 61
+			</address>
+		</div>
+	</div>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
+
